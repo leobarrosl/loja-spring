@@ -7,7 +7,6 @@ classDiagram
         +String nome
         +String email
         +String telefone
-        +int endereco_id
     }
 
     class Endereco {
@@ -19,6 +18,7 @@ classDiagram
         +String cidade
         +String estado
         +String cep
+        +int cliente_id
     }
 
     class Compra {
